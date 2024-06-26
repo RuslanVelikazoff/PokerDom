@@ -66,4 +66,60 @@ public class NotesData : MonoBehaviour
 
         return data;
     }
+
+    #region GetMethods
+
+    public string GetNotesName(int index)
+    {
+        return _notesName[index];
+    }
+
+    public string GetNotesDescription(int index)
+    {
+        return _notesDescription[index];
+    }
+
+    public List<int> GetNotesIndexList()
+    {
+        List<int> index = new List<int>();
+
+        for (int i = 0; i < _notesName.Count; i++)
+        {
+            index.Add(i);
+        }
+
+        return index;
+    }
+
+    #endregion
+
+    #region SetMethods
+
+    public void SetNotesName(int index, string name)
+    {
+        _notesName[index] = name;
+    }
+
+    public void SetNotesDescription(int index, string description)
+    {
+        _notesDescription[index] = description;
+        Save();
+    }
+
+    #endregion
+
+    #region AddNewNotes
+
+    public void AddNewNotesName(string name)
+    {
+        _notesName.Add(name);
+    }
+
+    public void AddNewNotesDescription(string description)
+    {
+        _notesDescription.Add(description);
+        Save();
+    }
+
+    #endregion
 }
