@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 87139329}
   - component: {fileID: 87139328}
   m_Layer: 5
-  m_Name: GlossaryText4
+  m_Name: TermText4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1078,7 +1078,7 @@ GameObject:
   - component: {fileID: 231496188}
   - component: {fileID: 231496187}
   m_Layer: 5
-  m_Name: Glossary8
+  m_Name: Term8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1556,7 +1556,7 @@ GameObject:
   - component: {fileID: 296781313}
   - component: {fileID: 296781312}
   m_Layer: 5
-  m_Name: GlossaryText8
+  m_Name: TermText8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1691,7 +1691,7 @@ GameObject:
   - component: {fileID: 326277675}
   - component: {fileID: 326277674}
   m_Layer: 5
-  m_Name: Glossary21
+  m_Name: Term21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1903,7 +1903,7 @@ GameObject:
   - component: {fileID: 338683163}
   - component: {fileID: 338683162}
   m_Layer: 5
-  m_Name: GlossaryText13
+  m_Name: TermText13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2116,6 +2116,7 @@ GameObject:
   - component: {fileID: 350196973}
   - component: {fileID: 350196975}
   - component: {fileID: 350196974}
+  - component: {fileID: 350196976}
   m_Layer: 5
   m_Name: GlossaryPanel
   m_TagString: Untagged
@@ -2184,6 +2185,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350196972}
   m_CullTransparentMesh: 1
+--- !u!114 &350196976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350196972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ff12019c3e5e64386181866b21f753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  searchButton: {fileID: 1454654649}
+  searchInputField: {fileID: 431182137}
+  termGameObject:
+  - {fileID: 664775455}
+  - {fileID: 1956892012}
+  - {fileID: 1589031731}
+  - {fileID: 1406024677}
+  - {fileID: 1485431007}
+  - {fileID: 1545683228}
+  - {fileID: 650591054}
+  - {fileID: 231496185}
+  - {fileID: 1140144219}
+  - {fileID: 441505311}
+  - {fileID: 940610524}
+  - {fileID: 1962107159}
+  - {fileID: 520558062}
+  - {fileID: 650379977}
+  - {fileID: 2041467314}
+  - {fileID: 1778021699}
+  - {fileID: 956459337}
+  - {fileID: 496548870}
+  - {fileID: 1379317242}
+  - {fileID: 708495463}
+  - {fileID: 326277672}
+  - {fileID: 1431411545}
+  - {fileID: 1086351504}
+  - {fileID: 1838167766}
+  - {fileID: 993762058}
+  termText:
+  - {fileID: 1289463454}
+  - {fileID: 1452332362}
+  - {fileID: 1227767251}
+  - {fileID: 87139328}
+  - {fileID: 1191947837}
+  - {fileID: 860734751}
+  - {fileID: 1285223784}
+  - {fileID: 296781312}
+  - {fileID: 2135415326}
+  - {fileID: 1975843435}
+  - {fileID: 522149302}
+  - {fileID: 1915217874}
+  - {fileID: 338683162}
+  - {fileID: 481180788}
+  - {fileID: 1397498549}
+  - {fileID: 836409332}
+  - {fileID: 1593609739}
+  - {fileID: 1637689764}
+  - {fileID: 1435686588}
+  - {fileID: 1936203266}
+  - {fileID: 1354099784}
+  - {fileID: 958086188}
+  - {fileID: 667178155}
+  - {fileID: 2035293790}
+  - {fileID: 1376977326}
+  spawnPosition: {fileID: 2012545074}
 --- !u!1 &396041766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,7 +2869,7 @@ GameObject:
   - component: {fileID: 441505314}
   - component: {fileID: 441505313}
   m_Layer: 5
-  m_Name: Glossary10
+  m_Name: Term10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3345,7 +3413,7 @@ GameObject:
   - component: {fileID: 481180789}
   - component: {fileID: 481180788}
   m_Layer: 5
-  m_Name: GlossaryText14
+  m_Name: TermText14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3480,7 +3548,7 @@ GameObject:
   - component: {fileID: 496548873}
   - component: {fileID: 496548872}
   m_Layer: 5
-  m_Name: Glossary18
+  m_Name: Term18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3648,7 +3716,7 @@ GameObject:
   - component: {fileID: 520558065}
   - component: {fileID: 520558064}
   m_Layer: 5
-  m_Name: Glossary13
+  m_Name: Term13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3725,7 +3793,7 @@ GameObject:
   - component: {fileID: 522149303}
   - component: {fileID: 522149302}
   m_Layer: 5
-  m_Name: GlossaryText11
+  m_Name: TermText11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3982,7 +4050,7 @@ GameObject:
   - component: {fileID: 650379980}
   - component: {fileID: 650379979}
   m_Layer: 5
-  m_Name: Glossary14
+  m_Name: Term14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4059,7 +4127,7 @@ GameObject:
   - component: {fileID: 650591057}
   - component: {fileID: 650591056}
   m_Layer: 5
-  m_Name: Glossary7
+  m_Name: Term7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4136,7 +4204,7 @@ GameObject:
   - component: {fileID: 664775458}
   - component: {fileID: 664775457}
   m_Layer: 5
-  m_Name: Glossary1
+  m_Name: Term1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4213,7 +4281,7 @@ GameObject:
   - component: {fileID: 667178156}
   - component: {fileID: 667178155}
   m_Layer: 5
-  m_Name: GlossaryText23
+  m_Name: TermText23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4349,7 +4417,7 @@ GameObject:
   - component: {fileID: 708495466}
   - component: {fileID: 708495465}
   m_Layer: 5
-  m_Name: Glossary20
+  m_Name: Term20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4930,7 +4998,7 @@ GameObject:
   - component: {fileID: 836409333}
   - component: {fileID: 836409332}
   m_Layer: 5
-  m_Name: GlossaryText16
+  m_Name: TermText16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5065,7 +5133,7 @@ GameObject:
   - component: {fileID: 860734752}
   - component: {fileID: 860734751}
   m_Layer: 5
-  m_Name: GlossaryText6
+  m_Name: TermText6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5322,7 +5390,7 @@ GameObject:
   - component: {fileID: 940610527}
   - component: {fileID: 940610526}
   m_Layer: 5
-  m_Name: Glossary11
+  m_Name: Term11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5520,7 +5588,7 @@ GameObject:
   - component: {fileID: 956459340}
   - component: {fileID: 956459339}
   m_Layer: 5
-  m_Name: Glossary17
+  m_Name: Term17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5597,7 +5665,7 @@ GameObject:
   - component: {fileID: 958086189}
   - component: {fileID: 958086188}
   m_Layer: 5
-  m_Name: GlossaryText22
+  m_Name: TermText22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5733,7 +5801,7 @@ GameObject:
   - component: {fileID: 993762061}
   - component: {fileID: 993762060}
   m_Layer: 5
-  m_Name: Glossary25
+  m_Name: Term25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5981,7 +6049,7 @@ GameObject:
   - component: {fileID: 1086351507}
   - component: {fileID: 1086351506}
   m_Layer: 5
-  m_Name: Glossary23
+  m_Name: Term23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6467,7 +6535,7 @@ GameObject:
   - component: {fileID: 1140144222}
   - component: {fileID: 1140144221}
   m_Layer: 5
-  m_Name: Glossary9
+  m_Name: Term9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6544,7 +6612,7 @@ GameObject:
   - component: {fileID: 1191947838}
   - component: {fileID: 1191947837}
   m_Layer: 5
-  m_Name: GlossaryText5
+  m_Name: TermText5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6680,7 +6748,7 @@ GameObject:
   - component: {fileID: 1227767252}
   - component: {fileID: 1227767251}
   m_Layer: 5
-  m_Name: GlossaryText3
+  m_Name: TermText3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6815,7 +6883,7 @@ GameObject:
   - component: {fileID: 1285223785}
   - component: {fileID: 1285223784}
   m_Layer: 5
-  m_Name: GlossaryText7
+  m_Name: TermText7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6950,7 +7018,7 @@ GameObject:
   - component: {fileID: 1289463455}
   - component: {fileID: 1289463454}
   m_Layer: 5
-  m_Name: GlossaryText1
+  m_Name: TermText1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7169,7 +7237,7 @@ GameObject:
   - component: {fileID: 1354099785}
   - component: {fileID: 1354099784}
   m_Layer: 5
-  m_Name: GlossaryText21
+  m_Name: TermText21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7426,7 +7494,7 @@ GameObject:
   - component: {fileID: 1376977327}
   - component: {fileID: 1376977326}
   m_Layer: 5
-  m_Name: GlossaryText25
+  m_Name: TermText25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7561,7 +7629,7 @@ GameObject:
   - component: {fileID: 1379317245}
   - component: {fileID: 1379317244}
   m_Layer: 5
-  m_Name: Glossary19
+  m_Name: Term19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7726,7 +7794,7 @@ MonoBehaviour:
   notesButton: {fileID: 1756713405}
   betSizeCalculatorButton: {fileID: 1482475609}
   passwordGeneratorButton: {fileID: 212494423}
-  glossaryPanel: {fileID: 0}
+  glossaryPanel: {fileID: 350196972}
   timerPanel: {fileID: 1111986205}
   notesPanel: {fileID: 0}
   betSizeCalculatorPanel: {fileID: 0}
@@ -7743,7 +7811,7 @@ GameObject:
   - component: {fileID: 1397498550}
   - component: {fileID: 1397498549}
   m_Layer: 5
-  m_Name: GlossaryText15
+  m_Name: TermText15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7879,7 +7947,7 @@ GameObject:
   - component: {fileID: 1406024680}
   - component: {fileID: 1406024679}
   m_Layer: 5
-  m_Name: Glossary4
+  m_Name: Term4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7956,7 +8024,7 @@ GameObject:
   - component: {fileID: 1431411548}
   - component: {fileID: 1431411547}
   m_Layer: 5
-  m_Name: Glossary22
+  m_Name: Term22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8168,7 +8236,7 @@ GameObject:
   - component: {fileID: 1435686589}
   - component: {fileID: 1435686588}
   m_Layer: 5
-  m_Name: GlossaryText19
+  m_Name: TermText19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8303,7 +8371,7 @@ GameObject:
   - component: {fileID: 1452332363}
   - component: {fileID: 1452332362}
   m_Layer: 5
-  m_Name: GlossaryText2
+  m_Name: TermText2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8681,7 +8749,7 @@ GameObject:
   - component: {fileID: 1485431010}
   - component: {fileID: 1485431009}
   m_Layer: 5
-  m_Name: Glossary5
+  m_Name: Term5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8934,7 +9002,7 @@ GameObject:
   - component: {fileID: 1545683231}
   - component: {fileID: 1545683230}
   m_Layer: 5
-  m_Name: Glossary6
+  m_Name: Term6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9011,7 +9079,7 @@ GameObject:
   - component: {fileID: 1589031734}
   - component: {fileID: 1589031733}
   m_Layer: 5
-  m_Name: Glossary3
+  m_Name: Term3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9088,7 +9156,7 @@ GameObject:
   - component: {fileID: 1593609740}
   - component: {fileID: 1593609739}
   m_Layer: 5
-  m_Name: GlossaryText17
+  m_Name: TermText17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9224,7 +9292,7 @@ GameObject:
   - component: {fileID: 1637689765}
   - component: {fileID: 1637689764}
   m_Layer: 5
-  m_Name: GlossaryText18
+  m_Name: TermText18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9871,7 +9939,7 @@ GameObject:
   - component: {fileID: 1778021702}
   - component: {fileID: 1778021701}
   m_Layer: 5
-  m_Name: Glossary16
+  m_Name: Term16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10001,7 +10069,7 @@ GameObject:
   - component: {fileID: 1838167769}
   - component: {fileID: 1838167768}
   m_Layer: 5
-  m_Name: Glossary24
+  m_Name: Term24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10320,7 +10388,7 @@ GameObject:
   - component: {fileID: 1915217875}
   - component: {fileID: 1915217874}
   m_Layer: 5
-  m_Name: GlossaryText12
+  m_Name: TermText12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10714,7 +10782,7 @@ GameObject:
   - component: {fileID: 1936203267}
   - component: {fileID: 1936203266}
   m_Layer: 5
-  m_Name: GlossaryText20
+  m_Name: TermText20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11123,7 +11191,7 @@ GameObject:
   - component: {fileID: 1956892015}
   - component: {fileID: 1956892014}
   m_Layer: 5
-  m_Name: Glossary2
+  m_Name: Term2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11200,7 +11268,7 @@ GameObject:
   - component: {fileID: 1962107162}
   - component: {fileID: 1962107161}
   m_Layer: 5
-  m_Name: Glossary12
+  m_Name: Term12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11277,7 +11345,7 @@ GameObject:
   - component: {fileID: 1975843436}
   - component: {fileID: 1975843435}
   m_Layer: 5
-  m_Name: GlossaryText10
+  m_Name: TermText10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11620,7 +11688,7 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_Spacing: 40
   m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 1
@@ -11638,7 +11706,7 @@ GameObject:
   - component: {fileID: 2035293791}
   - component: {fileID: 2035293790}
   m_Layer: 5
-  m_Name: GlossaryText24
+  m_Name: TermText24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11774,7 +11842,7 @@ GameObject:
   - component: {fileID: 2041467317}
   - component: {fileID: 2041467316}
   m_Layer: 5
-  m_Name: Glossary15
+  m_Name: Term15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12007,7 +12075,7 @@ GameObject:
   - component: {fileID: 2135415327}
   - component: {fileID: 2135415326}
   m_Layer: 5
-  m_Name: GlossaryText9
+  m_Name: TermText9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
