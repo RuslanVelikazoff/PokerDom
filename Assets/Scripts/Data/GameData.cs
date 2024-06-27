@@ -10,6 +10,11 @@ public class GameData
     public List<string> taskName;
     public List<string> taskDescription;
     public List<bool> taskCompleted;
+    
+    //Bankroll Manager
+    public List<float> betAmount;
+    public List<string> betNotes;
+    public List<bool> betWin;
 
     public GameData()
     {
@@ -19,5 +24,9 @@ public class GameData
         taskName = new List<string>();
         taskDescription = new List<string>();
         taskCompleted = new List<bool>();
+
+        betAmount = new List<float>();
+        betNotes = new List<string>();
+        betWin = new List<bool>();
     }
 }
