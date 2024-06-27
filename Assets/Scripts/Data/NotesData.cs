@@ -122,4 +122,10 @@ public class NotesData : MonoBehaviour
     }
 
     #endregion
+
+    public void DeleteNote(int index)
+    {
+        _notesName.RemoveAt(index);
+        _notesDescription.RemoveAt(index);
+    }
 }

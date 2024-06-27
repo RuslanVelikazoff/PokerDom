@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -116,4 +115,11 @@ public class BetData : MonoBehaviour
     }
 
     #endregion
+
+    public void DeleteBet(int index)
+    {
+        _betAmount.RemoveAt(index);
+        _betNotes.RemoveAt(index);
+        _betWin.RemoveAt(index);
+    }
 }

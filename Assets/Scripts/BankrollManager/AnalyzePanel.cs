@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -23,7 +24,7 @@ public class AnalyzePanel : MonoBehaviour
             }
         }
 
-        winText.text = $"Total win: {winAmount}$";
-        loseText.text = $"Total lose: {loseAmount}$";
+        winText.text = $"Total win: {Math.Round(winAmount, 2)}$";
+        loseText.text = $"Total lose: {Math.Round(loseAmount, 2)}$";
     }
 }

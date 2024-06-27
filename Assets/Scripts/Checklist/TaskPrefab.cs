@@ -12,6 +12,9 @@ public class TaskPrefab : MonoBehaviour
     [SerializeField]
     private Button uncompleteButton;
 
+    [SerializeField] 
+    private Button deleteButton;
+
     private int index;
 
     public void SpawnPrefab(int index)
@@ -41,6 +44,18 @@ public class TaskPrefab : MonoBehaviour
             {
                 TaskData.Instance.SetTaskCompleted(index, true);
                 SetCompletedButton();
+            });
+        }
+
+        if (deleteButton != null)
+        {
+            deleteButton.onClick.RemoveAllListeners();
+            deleteButton.onClick.AddListener(() =>
+            {
+                TaskData.Instance.DeleteTask(index);
+                GameObject taskScrollView = FindObjectOfType<TaskScrollView>().gameObject;
+                taskScrollView.SetActive(false);
+                taskScrollView.SetActive(true);
             });
         }
     }

@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -127,4 +125,11 @@ public class TaskData : MonoBehaviour
     }
 
     #endregion
+
+    public void DeleteTask(int index)
+    {
+        _taskName.RemoveAt(index);
+        _taskDescription.RemoveAt(index);
+        _taskCompleted.RemoveAt(index);
+    }
 }
