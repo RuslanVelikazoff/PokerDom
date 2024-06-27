@@ -30,9 +30,12 @@ public class MainMenuPanel : MonoBehaviour
     private GameObject newsAndStrategiesPanel;
     [SerializeField] 
     private GameObject additionalPanel;
+    
+    private const string PLAYER_PREFS_PROGRESS = "PLAYER_PREFS_PROGRESS";
 
     private void OnEnable()
     {
+        PlayerPrefs.SetInt(PLAYER_PREFS_PROGRESS, 0);
         ButtonClickAction();  
     }
 
