@@ -1,0 +1,32 @@
+{
+  "project_info": {
+    "project_number": "377401417093",
+    "firebase_url": "https://pokerdom-8a8bc-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pokerdom-8a8bc",
+    "storage_bucket": "pokerdom-8a8bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377401417093:ios:461f180450ea7a1161b8ec",
+        "android_client_info": {
+          "package_name": "com.panelit.pokerdom"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIVxNDZiDZwzr624R8-RSTfrkW-XmU4XU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
