@@ -13,7 +13,7 @@ public class NewsScrollView : MonoBehaviour
 
     private DatabaseReference databaseReference;
 
-    private void Start()
+    private void Awake()
     {
         databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
 
